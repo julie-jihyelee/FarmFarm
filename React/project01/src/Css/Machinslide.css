@@ -1,0 +1,71 @@
+
+
+.machin_title{
+    font-family: 'SUIT-Bold';
+    font-size: 32px;
+    margin-left: 320px;
+    border-bottom: 3px solid #00C897;
+    position: relative;
+    top: 80px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.machin_slider-container{
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+   
+ 
+}
+.machin_slider {
+    width: 300px; /* 아이템의 너비 설정 */
+    padding: 30px; /* 아이템의 내용과의 여백 설정 */
+    box-sizing: border-box; /* 패딩까지 포함한 크기 설정 */
+  }
+
+
+.machin_slide{
+   
+    font-family: 'SUIT-Bold';
+    font-size: 25px;
+}
+
+.machin_slideimg{
+    position: relative;
+    top: -20px;
+    left: 40px;
+    width: auto;
+    height: auto;
+}
+
+.machin_slide_sub1{
+    font-family: 'SUIT-Regular';
+    position: relative;
+    top: 20px;
+}
+
+.machin_slide_sub2{
+    font-family: 'SUIT-Regular';
+    position: relative;
+    top: -30px;
+}
+
+.machinslide_sub1{
+    
+    font-family: 'SUIT-Bold';
+    position: relative;
+    top: -15px;
+    font-size: 18px;
+
+}
+
+.machinslide_sub2{
+    
+    font-family: 'SUIT-Bold';
+    position: relative;
+    top: -20px;
+    font-size: 25px;
+    color: #00C897;
+}

@@ -1,0 +1,59 @@
+
+#ct{
+  font-family: 'SUIT-ExtraBold';
+  font-size: 28px;
+  margin : 50px 0px 20px;
+}
+
+.cardContainer{
+  
+  display: grid;
+  grid-gap : 5px;
+  grid-template-columns: repeat(4, 2fr);
+
+}
+
+.searchcard{
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 250px;
+  color :white;
+}
+
+.imageArea{
+  display : inline-block;
+  width : 290px;
+  height : 170px;
+  background-color: rgb(164, 164, 164);
+  border-radius: 15px;
+  
+}
+
+.stitle{
+  display: block;
+  text-align : left;
+  margin : 5px 5px;
+  font-family: 'SUIT-Bold';
+  font-size :20px;
+  color : black;
+}
+
+.ssubtitle{
+  margin : 5px;
+  padding-left : 5px;
+  font-family: 'SUIT-SemiBold';
+  color : rgb(110, 110, 110);
+  font-size: 15px;
+}
+
+img{
+  object-fit:cover;
+  width : 290px;
+  height : 170px;
+  border-radius: 15px;
+}
+
+.link {
+  text-decoration: none;
+}

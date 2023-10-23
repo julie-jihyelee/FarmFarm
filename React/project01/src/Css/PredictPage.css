@@ -1,0 +1,73 @@
+
+
+#predictPage {
+  text-align: center;
+
+  
+}
+
+
+.recommend_maintitle{
+  font-family: 'SUIT-Bold';
+  margin-left: 320px;
+  font-size: 32px;
+  border-bottom: 3px solid #00C897;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.rec_subbtn1{
+  font-family: 'SUIT-SemiBold';
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  border: 2px solid #dadada;
+position: relative;
+top: 10px;
+left: 350px;
+margin: 10px;
+}
+
+.rec_btn{
+  position: relative;
+  left: 360px;
+  top: 10px;
+  font-family: 'SUIT-Bold';
+  border: 2px solid #00C897;
+  color: #00C897;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+.rec_btn:hover{
+  background-color: #00C897;
+  color: white;
+}
+
+.rec_subtitle{
+ font-family: 'SUIT-SemiBold';
+ font-size: 20px;
+ margin-top: 30px;
+ margin-left: 360px;
+}
+
+.rec_vege{
+
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #00C897;
+  display: inline-block;
+  background-color: #00C897;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'SUIT-SemiBold';
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+.rec-vege-border{
+  margin-left: 350px;
+  margin-right: 350px;
+}

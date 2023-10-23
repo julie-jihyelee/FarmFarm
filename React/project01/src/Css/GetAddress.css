@@ -1,0 +1,20 @@
+.form-control {
+  display : inline-block;
+  margin :  0px 20px 16px 0px; 
+  width : 180px;
+  height : 40px;
+  line-height: 1.5rem;
+  border : 1px solid #05AC7B; 
+  border-radius: 10px;
+  padding : 2px 15px;
+  color : #05AC7B;
+  background-color: white ;
+  font-family: 'SUIT-SemiBold';
+  font-size: 15px;
+}
+
+
+.form {
+  position : relative;
+  top : -30px;
+}

@@ -1,0 +1,2224 @@
+/* font */
+
+@font-face {
+  font-family: 'SUIT-SemiBold';
+  src: url('./Fonts/SUIT-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUIT-ExtraBold';
+  src: url('./Fonts/SUIT-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUIT-Bold';
+  src: url('./Fonts/SUIT-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('./Fonts/SUIT-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+commubtn3
+
+/* Mainpage */
+.MACHINBANNER{
+  margin: 40px;
+  text-decoration: none;
+}
+
+ .machinBanner:hover { animation: 0.3s ease-in-out loadEffect3; }
+
+ @keyframes loadEffect3 {
+     0%{
+         opacity: 1;
+         transform: scale(0.01);
+     }
+     65%{
+         opacity: 0.85;
+         transform: scale(1.01);
+     }
+     85%{
+         opacity: 0.65;
+         transform: scale(0.97);
+     }
+     100%{
+         opacity: 0.5;
+         transform: scale(1);
+     }
+ }
+
+.machin_text1:hover{
+  opacity: 1;
+  
+} 
+
+.machinBanner{
+  
+ text-decoration: none;
+  opacity: 1;
+  z-index: 3;
+  width: auto;
+  text-decoration: none;
+}
+.machin_text1{
+
+  opacity: 0;
+  position: relative;
+  text-align: center;
+  top: -90px;
+  left: -150px;
+  transition: opacity 0.3s ease-in-out; /* 투명도 변화 애니메이션 */
+
+  font-family: 'SUIT-ExtraBold';
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  z-index: 99;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+  
+}
+
+#main-bg {
+  max-width: 1920px;
+  margin: 0 auto; /* 가운데 정렬을 위해 사용 */
+  text-decoration: none;
+}
+.main-container{
+ position: relative;
+ top: 500px;
+  text-decoration: none;
+  z-index: 1;
+  max-width: 1920px;
+  margin: 0 auto; /* 가운데 정렬을 위해 사용 */
+ 
+}
+
+#mainTitle {
+
+ 
+  overflow-x: hidden;
+  position: relative;
+  left: 320px;
+  bottom: 550px;
+  color: #00C897;
+  font-size: 45px;
+  font-family: 'SUIT-ExtraBold';
+ 
+  z-index: 99;
+}
+
+#mainTitle , #sub{ animation: 0.7s ease-in-out loadEffect1; }
+
+@keyframes loadEffect1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+#mainTitle2 {
+
+  position: relative;
+  
+  left: 850px;
+  top: 0px;
+  color: black;
+  font-size: 45px;
+  font-family: 'SUIT-ExtraBold';
+ 
+  z-index: 99;
+}
+
+
+.mainTitle_1{
+  color: #019267;
+
+}
+
+
+
+#sub {
+  display: inline-block; 
+  position: relative;
+  font-family: 'SUIT-Bold';
+  left: 320px;
+  top: -520px;
+  font-size: 20px;
+ 
+
+  z-index:9999;
+}
+
+
+
+
+
+
+
+.brocol img{
+  position: relative;
+  top: -95px;
+  left: 1030px;
+ width:70px;
+ height: 70px;
+ z-index: 99;
+}
+
+
+
+.sub2{
+  font-family: 'SUIT-Regular';
+
+  position: relative;
+  top: 10px;
+  left: 800px;
+  text-align: center;
+  font-size: 20px;
+
+  z-index: 99;
+}
+
+
+
+
+.mainbutton1 img{
+ 
+  position: relative;
+  left: 400px;
+  top: 940px;
+  width: auto;
+  height: auto;
+  
+  z-index: 99;
+  
+}
+
+
+  
+  .mainbutton2 img {
+    position: relative;
+    left: 950px;
+    top: 470px;
+    width:auto;
+  height: auto;
+    z-index: 99;
+  }
+
+#MAINBUTTON{
+  position: relative;
+
+  top: -1010px;
+}
+
+.animate{ animation: 0.7s ease-in-out loadEffect3; }
+
+@keyframes loadEffect3 {
+    0%{
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    65%{
+        opacity: 0.65;
+        transform: scale(1.01);
+    }
+    85%{
+        opacity: 0.85;
+        transform: scale(0.97);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+#main-image {
+  position: absolute; /* 수정: absolute로 설정 */
+  left: 0;
+  right: 0;
+  width: 1920px;
+  height: auto;
+  top: 0px;
+  
+  justify-content: center;
+
+  z-index: 1;
+}
+
+.findbtn{
+
+
+  padding: 10px 30px ;
+  border: 2px solid white; 
+  border-radius: 50px;
+  top: 270px;
+  left: 440px;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+  font-family: 'SUIT-Bold';
+  font-size: 18px;
+  color: white;
+  
+}
+
+.findbtn:hover {
+  background-color: white;
+ 
+}
+
+.findbtn:hover .findname {
+  color: #FF9F56;
+}
+
+.findbtn2:hover {
+  background-color: white;
+ 
+}
+
+.findbtn2:hover .findname2 {
+  color: #05AC7B;
+}
+
+
+.findbtn2{
+  position: relative;
+  top: 270px;
+  left: 850px;
+ 
+  padding: 10px 30px ;
+  border: 2px solid white; 
+  border-radius: 50px;
+  display: inline-block;
+  z-index: 99;
+  font-family: 'SUIT-Bold';
+  font-size: 18px;
+  color: white;
+}
+.findname {
+  color: white;
+  text-decoration: none;
+}
+.findname2{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.mainTitle3{
+  display: inline-block; 
+  position: relative;
+ 
+ left: 320px;
+  color: white;
+  top: 720px;
+  font-size: 45px;
+  font-family: 'SUIT-ExtraBold';
+  z-index: 99;
+}
+
+.sub3{
+  font-family: 'SUIT-Bold';
+  z-index: 1;
+  font-size: 20px;
+  position: relative;
+  
+  top: 740px; /* 수정: 아래로 20픽셀 이동 */
+  left: 320px;
+ 
+  color: white;
+  z-index: 99;
+}
+
+
+
+.floating-banner {
+  position: relative;
+  
+ text-decoration: none;
+  bottom: 300px;
+  right: -1600px;
+   /* 크기를 70%로 조정 */
+  display: none;
+  z-index: 999;
+}
+
+.floating-banner.show {
+  display: block;
+  
+ text-decoration: none;
+
+}
+
+/* slide css  */
+.slider-container {
+ 
+  text-decoration: none;
+  position: relative;
+  width: 1300px;
+  top: 1950px; /* 원하는 위치로 조정 */
+  left: 44%; /* 가운데 정렬을 위해 left 값 조정 */
+  transform: translateX(-38%); /* 가운데 정렬을 위해 left 값 조정 */
+  z-index: 12;
+  
+}
+.slider1:hover{
+  transform: scale(1.05);
+  
+}
+
+.slider2:hover{
+  transform: scale(1.05);
+  
+}
+.slider3:hover{
+  transform: scale(1.05);
+  
+}
+.slider4:hover{
+  transform: scale(1.05);
+  
+}
+
+
+.slider2:hover .slide_sub2,
+.slider3:hover .slide_sub3,
+.slider4:hover .slide_sub4 {
+  transform: translateY(94px); /* hover 시 글씨를 위로 10px 이동 */
+  text-decoration: none;
+}
+
+.slider{
+  text-decoration: none;
+}
+
+.slide1{
+  color: black;
+
+  font-family: 'SUIT-Bold';
+  font-size: 25px;
+  position: relative;
+  left: -295px;
+  top: -70px;
+ text-decoration: none;
+}
+
+.slide_sub1{
+  position: relative;
+  font-family: 'SUIT-Regular';
+  text-decoration: none;
+  left: 20px;
+  top: -40px;
+  color: black;
+
+  
+
+}
+
+.slide_sub2{
+  text-decoration: none;
+  position: relative;
+  font-family: 'SUIT-Regular';
+  top: -40px;
+ left: 5px;
+  color: black;
+  
+ 
+  
+
+}
+.slide_sub3{
+  text-decoration: none;
+  position: relative;
+  font-family: 'SUIT-Regular';
+  top: -40px;
+ left: -150px;
+  color: black;
+  
+
+}
+.slide2{
+  color: black;
+
+  font-family: 'SUIT-Bold';
+  font-size: 25px;
+  position: relative;
+  left: -265px;
+  top: -70px;
+ text-decoration: none;
+  
+}
+
+.slide3{
+  text-decoration: none;
+  color: black;
+  font-family: 'SUIT-Bold';
+  font-size: 25px;
+  position: relative;
+  margin-left: 20px;
+  top: -70px;
+ left: -20px;
+  
+ 
+}
+.slide4{
+  text-decoration: none;
+  color: black;
+  font-family: 'SUIT-Bold';
+  font-size: 25px;
+  position: relative;
+  left: 20px;
+  top: 30px;
+  
+}
+
+
+.slide_sub4{
+  text-decoration: none;
+  position: relative;
+  font-family: 'SUIT-Regular';
+  top: 60px;
+  left: -185px;
+  bottom: auto;
+  color: black;
+}
+
+
+
+.slideimg1{
+
+  
+  
+  
+  width: 500px;
+  height: 280px;
+  
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+
+  margin-bottom: 100px;
+}
+
+.slideimg2{
+ 
+  width: 500px;
+  height: 280px;
+  
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+
+  margin-bottom: 100px;
+ 
+}
+
+.slideimg3 {
+  width: 500px;
+  height: 280px;
+  
+  text-decoration: none;
+  border-radius: 10px;
+  position: relative;
+
+  margin-bottom: 100px;
+}
+.slideimg4{
+  width: 500px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+
+
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+
+
+
+
+
+
+
+
+
+/* info gunsik start*/
+
+ 
+
+@keyframes loadEffect2 {
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateY(5px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+  }
+
+
+  @font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.infotitle2{
+  text-align: center;
+  position: relative;
+
+  
+  left: 360px;
+  top: 90px;
+  font-size: 30px;
+  color: black ;
+  font-family: 'SBAggroB';
+  z-index: 1;
+}
+
+.videotagAll{
+  margin-top: -300px;
+}
+
+.infohr2{
+  
+  color:lightgray;
+  top: 110px;
+  left: 30px;
+  width: 1200px;
+  border-style:dashed ; /* 수평 룰의 선 스타일 변경 */
+  border-width: 1px; /* 점선의 두께 설정 */
+  border-spacing: 1px; /* 간격 설정 */
+  position: relative;
+  z-index: 3;
+}
+.infotitle3{
+  text-align: center;
+  position: relative;
+  left: 360px;
+  top: -520px;
+  font-size: 30px;
+  color: black ;
+  font-family: 'SBAggroB';
+  z-index: 1;
+}
+.infohr3{
+  position: relative;
+  color:lightgray;
+  top: -500px;
+  left: 30px;
+  width: 1200px;
+  border-style:dashed ; /* 수평 룰의 선 스타일 변경 */
+  border-width: 1px; /* 점선의 두께 설정 */
+  border-spacing: 1px; /* 간격 설정 */
+  
+  z-index: 3;
+}
+
+.infostoryimg{
+  position: relative;
+  width: 340px;
+  height: auto;
+  margin-left: 60px;
+}
+
+
+.big-video {
+  position: relative;
+  width :580px;
+  height : 400px;
+  bottom: 400px;
+  left: 30px;
+  z-index: 99;
+  overflow: hidden; /* 부모 요소에서 이미지 내부를 보이도록 설정 */
+}
+
+.small-video {
+  display: grid;
+  position: relative;
+  top: -750px;
+  right: -700px;
+  margin: -50px -60px;
+  grid-template-columns: 320px 200px;
+  grid-template-rows: 210px 200px;
+ 
+  
+
+
+}
+
+.video , .video2,.video3,.video4{
+  position: relative;
+  width: 290px; /* 이미지 요소의 크기는 부모 요소와 같게 설정 */
+  height: 800px;
+  top: 10px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* 부모 요소에서 이미지 내부를 보이도록 설정 */
+
+}
+.video img, .video2 img ,.video3 img ,.video4 img {
+  
+  width: 300px; /* 이미지 요소의 크기는 부모 요소와 같게 설정 */
+  height: 140px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.video1_tag{
+  border: 3px solid white; 
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
+  width: 578px;
+  height: 130px;
+  position: relative;
+  top: 391px;
+  left: 350px;
+  z-index: 9999;
+}
+
+.video2_tag{
+  border: 3px solid white; 
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
+  width: 284px;
+  height: 70px;
+  position: relative;
+  top: 70px;
+  left: 960px;
+  z-index: 9999;
+}
+.video3_tag{
+  border: 3px solid white; 
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
+  width: 284px;
+  height: 70px;
+  position: relative;
+  top: -7px;
+  left: 1280px;
+  z-index: 9999;
+}
+.video4_tag{
+  border: 3px solid white; 
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
+  width: 284px;
+  height: 70px;
+  position: relative;
+  top: 160px;
+  left: 960px;
+  z-index: 9999;
+}
+.video5_tag{
+  border: 3px solid white; 
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
+  width: 284px;
+  height: 70px;
+  position: relative;
+  top: 80px;
+  left: 1280px;
+  z-index: 9999;
+}
+.video1_tagname{
+  position: relative;
+  left: 370px;
+  top: -20px;
+  font-size: 24px;
+  font-family: 'SUIT-ExtraBold';
+  z-index: 9999;
+}
+.video1_tagname1{
+  position: relative;
+  left: 430px;
+  top: -250px;
+  font-size: 18px;
+  font-family: 'SUIT-ExtraBold';
+  z-index: 9999;
+}
+.video1_tagname2{
+  position: relative;
+  left: 550px;
+  top: -250px;
+  font-size: 18px;
+  font-family: 'SUIT-ExtraBold';
+  z-index: 9999;
+}
+.video1_tagname3{
+  position: relative;
+  left: 80px;
+  top: -13px;
+  font-size: 18px;
+  font-family: 'SUIT-ExtraBold';
+  z-index: 9999;
+}
+.video1_tagname4{
+  position: relative;
+  left: 170px;
+  top: -13px;
+  font-size: 18px;
+  font-family: 'SUIT-ExtraBold';
+  z-index: 9999;
+}
+.video1_tagsubname{
+  position: relative;
+  left: 620px;
+  top: 0px;
+  font-size: 15px;
+  font-family: 'SUIT-Regular';
+  z-index: 9999;
+}
+.video1_tagsubname1{
+  position: relative;
+  left: 890px;
+  top: -230px;
+  font-size: 13px;
+  font-family: 'SUIT-Regular';
+  z-index: 9999;
+}
+
+.video1_tagsubname2{
+  position: relative;
+  left: 1150px;
+  top: -230px;
+  font-size: 13px;
+  font-family: 'SUIT-Regular';
+  z-index: 9999;
+}
+
+.video1_tagsubname3{
+  position: relative;
+  left: 750px;
+  top: 13px;
+  font-size: 13px;
+  font-family: 'SUIT-Regular';
+  z-index: 9999;
+}
+.video1_tagsubname4{
+  position: relative;
+  left: 1010px;
+  top: 9px;
+  font-size: 13px;
+  font-family: 'SUIT-Regular';
+  z-index: 9999;
+}
+.video img{
+  background-size: cover;
+}
+.infoimg2{
+  position: relative;
+  top: -430px;
+  left: 360px;
+
+}
+
+.commubtnAll{
+  position: relative;
+top: -710px;
+
+}
+.commubtn1{
+  position: relative;
+  width: 400px;
+  left: 350px;
+  top: 1540px;
+  margin-right: 20px;
+  
+}
+.commubtn2{
+  position: relative;
+  width: 400px;
+  height: auto;
+  left: 350px;
+  margin-right: 20px;
+  top: 1470px;
+  
+}
+.commubtn3{
+  position: relative;
+  width: 400px;
+  left: 350px;
+  top: 1535px;
+  
+}
+/* 
+.commubtn1 ,.commubtn2 ,.commubtn3{
+  position: relative;
+  margin: 20px;
+  width: auto;
+  height: auto;
+} */
+
+
+.commu1{
+
+
+  padding: 5px 20px ;
+  border: 2px solid white; 
+  border-radius: 50px;
+  top: 150px;
+  left: 30px;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+  text-decoration: none;
+  font-family: 'SUIT-Bold';
+  font-size: 18px;
+  color: black;
+  z-index: 9999;
+  
+}
+
+.commu2{
+
+
+  padding: 5px 20px ;
+  border: 2px solid white; 
+  border-radius: 50px;
+  top: 150px;
+  left: 340px;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+  text-decoration: none;
+  font-family: 'SUIT-Bold';
+  font-size: 18px;
+  color: black;
+  z-index: 9999;
+  
+}
+
+
+.commu3{
+
+
+  padding: 5px 20px ;
+  border: 2px solid white; 
+  border-radius: 50px;
+  top: 150px;
+  left: 650px;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+  text-decoration: none;
+  font-family: 'SUIT-Bold';
+  font-size: 18px;
+  color: white;
+  z-index: 9999;
+  
+}
+.commu1name{
+  text-decoration: none;
+  color: white;
+  z-index: 9999;
+  font-size: 15px;
+}
+.commu2name{
+  text-decoration: none;
+  color: white;
+  z-index: 9999;
+  font-size: 15px;
+}
+
+.commu3name{
+  text-decoration: none;
+  color: white;
+  z-index: 9999;
+  font-size: 15px;
+}
+
+.commu1:hover , .commu2:hover , .commu3:hover{
+  background-color: white;
+ 
+}
+
+.commu1:hover .commu1name {
+  color: #F7CD65;
+}
+
+.commu2:hover .commu2name {
+  color: #13A477;
+}
+
+.commu3:hover .commu3name {
+  color: #F39A57;
+}
+.big-video img {
+  width: 10%; /* 이미지 요소의 크기는 부모 요소와 같게 설정 */
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.big-video:hover img ,.video:hover img ,.video2:hover img ,.video3:hover img ,.video4:hover img {
+  transform: scale(1.2); /* 확대 배율 설정 */
+  
+}
+
+/* 텃밭 자랑하기 */
+
+.conetitle{
+  font-family: 'SUIT-ExtraBold';
+  font-size: 45px;
+  
+    position: relative;
+    left: 850px;
+    top: 100px;
+    color: #575757;
+    bottom: 50px;
+    z-index: 99;
+  text-align: center;
+  
+}
+
+.c1titlebg{
+  width: 1920px;
+  height: auto;
+  position: relative;
+  top: -100px;
+z-index: 1;
+}
+
+
+.ctexttitle {
+ 
+ position: relative;
+ font-family: 'SUIT-Bold';
+ left: 320px;
+top: -70px;
+
+  color: black; /* 글자 색상 */
+  font-size: 27px; /* 글자 크기 */
+  padding: 10px 0; /* 위 아래로 내부 여백 추가 */
+  border-bottom: 5px solid hsl(24, 90%, 61%); /* 밑줄 스타일 */
+ 
+}
+.c1_column{
+  font-family: 'SUIT-Bold';
+}
+
+.card-container {
+  /* margin-left : 320px;
+  max-width: 1800px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: seashell; */
+position: relative;
+max-width: 1260px;
+left: 0px;
+z-index: 99;
+border-radius: 10px;
+
+
+
+}
+
+.writetd{
+  font-family: 'SUIT-SemiBold';
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.writetd a{
+  color: black;
+  text-decoration: none;
+}
+.card td:nth-child(3),
+.card td:nth-child(4){
+  font-family: "SUIT-Regular";
+}
+
+
+.card-container th:nth-child(1),
+
+.card-container th:nth-child(3)
+ {
+ position: relative;
+ top: -10px;
+  width : 12%
+}
+.card-container th:nth-child(4){
+  position: relative;
+  top: -7px;
+}
+.card-container th:nth-child(2){
+  position: relative;
+  top: -8px;
+}
+.card-container th:nth-child(4),
+.card-container td:nth-child(4) {
+  width : 15%
+}
+.card-container th:nth-child(3),
+.card-container td:nth-child(3) {
+  width : 35%
+}
+
+
+.write-button {
+  background-color: white; /* 주황색 배경 */
+  color: #FF9F56; /* 흰색 글자 */
+  font-size: 15px; /* 글자 크기 */
+  font-family: 'SUIT-SemiBold';
+  border: 2px solid #FF9F56;
+  padding: 10px 20px; /* 내부 여백 */
+  border-radius: 15px;
+ position: relative;
+ left: 1100px;
+ top: -70px;
+ z-index: 999;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.5s; /* 애니메이션 효과 */
+
+
+  /* 호버 효과 */
+  &:hover {
+    background-color: #FF9F56; /* 더 진한 주황색으로 변경 */
+    color: white;
+    transform: translateY(-2px); /* 버튼을 조금 위로 올림 */
+  }
+
+  &:active {
+    transform: translateY(1px); /* 버튼을 조금 아래로 눌림 */
+  }
+}
+
+.card a{
+  font-family: 'SUIT-SemiBold';
+  color: #3a3a3a;
+  text-decoration: none;
+}
+.card-container1 {
+display: flex;
+flex-wrap: wrap;
+  position: relative;
+  margin-left: 260px;
+  position: relative;
+  top: 100px;
+ left: -20px;
+  border-radius: 15px;
+  z-index: 99;
+
+
+
+ 
+
+}
+.flip{
+position: relative;
+top: -50px;
+transform: perspective(800px) rotateY(0deg); /* 추가 */
+
+}
+.upgrade{
+  font-family: 'SUIT-Bold';
+  position: relative;
+ 
+  top: -70px;
+  left: 210px;
+}
+
+.upgrade a{
+  text-decoration: none;
+  color: black;
+}
+.c2-card{
+  display: inline-block;
+  position: relative;
+  transform-origin: center center; /* 회전 변환의 중심을 가운데로 설정 */
+  
+  transition: .4s;
+  transform-style: preserve-3d;
+}
+
+.text-border{
+  border: 2px solid white;
+  width: auto;
+  height: 340px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+}
+
+
+
+.backcard{
+  margin: -50px;
+ 
+  background-image: url('../public/img/backcard.png'); /* 이미지 경로를 URL 형식으로 지정 */
+  background-size: cover; /* 이미지를 카드에 맞게 조절 */
+  text-align: center;
+ 
+  display: inline-block;
+  width: 250px;
+  height: 370px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  position: relative;
+  left: 100px;
+  border-radius: 0px;
+  position: relative;
+  top: 56px;
+  z-index: 99;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.frontcard { 
+  position: relative;
+  top: -37px;
+  left: -60px;
+  width: 260px;
+  height: 390px;
+  border-radius: 0px;
+  z-index: 99;
+  transition: transform 0.4s;
+  
+}
+
+
+.ctwotitle {
+  font-family: 'SUIT-ExtraBold';
+  text-align: left;
+  margin-left: 440px;
+  font-size: 30px;
+  margin-top: 100px;
+  position: relative;
+  left: -50px;
+  display: inline-block;
+
+  color: black;
+padding-bottom: 10px;
+  border-bottom: 3px solid  #FF9F56;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.c2-card:hover  {
+  transform: perspective(800px) rotateY(180deg); /* 추가 */
+}
+.c2-card:hover .frontcard {
+  backface-visibility: hidden;
+  
+}
+
+.card-actions{
+  font-family: 'SUIT-Regular';
+margin-left: 120px;
+position: absolute;
+top: 210px;
+ 
+
+}
+
+
+.card2_subtitle {
+  font-family: 'SUIT-SemiBold';
+  position: relative;
+  font-size: 12px;
+  top: 135px;
+  color: black;
+  z-index: 99;
+}
+.c2img{
+  width: 210px;
+  height: 130px;
+  border-radius: 0px;
+  position: relative;
+  top: -300px;
+
+}
+.card2-title {
+  font-family: 'SUIT-Bold';
+  font-size: 20px;
+  position: relative;
+  top: 150px;
+  z-index: 99;
+}
+
+.card2-subtitle {
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%; /* 텍스트 중앙 정렬을 위해 수정 */
+  transform: translateX(-50%); /* 텍스트 중앙 정렬을 위해 추가 */
+  z-index: 99;
+  width: 80%; /* 텍스트의 가로 너비 조정 */
+}
+
+
+.cthreetitle {
+  text-align: center;
+  background-color: skyblue;
+}
+
+.ctextbox{
+  text-align: center;
+}
+
+.ctext{
+  border-style: groove;
+}
+.ctexta{
+  border-style: #019267;
+  border-bottom: red
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 385px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #020000;
+}
+.money{
+  align-content: center;
+}
+
+.c3_title{
+  font-family: 'SUIT-Bold';
+}
+
+.c3_moneytitle{
+  font-family: 'SUIT-SemiBold';
+}
+
+
+.c3_moneyinput{
+  font-family: 'SUIT-Bold';
+  border: 2px solid #FF9F56;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 110px;
+}
+
+.c3_moneybtn{
+  position: relative;
+  left: 10px;
+  font-family: 'SUIT-Bold';
+  margin: 10px;
+  color: white;
+  background-color: #FF9F56;
+  border: 2px solid #FF9F56;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.c3_moneybtn:hover{
+  background-color: #e67e30;
+  border: 2px solid #e67e30;
+}
+
+.info-vd-container{
+ margin-left : 320px;
+ margin-right : 320px;
+}
+
+
+
+
+
+/* 텃밭자랑하기 */
+
+
+
+
+/* 글 작성 페이지 */
+.writing_title{
+  font-family: 'SUIT-Bold';
+  font-size: 25px;
+  z-index: 99;
+  position: relative;
+  left: 530px;
+  top: 10px;
+}
+
+.writing-page {
+  border:2px solid #F2F2F2;
+  border-radius: 15px;
+  height: 500px;
+  padding-top: 10px;
+  margin-left: 320px;
+  margin-right: 320px;
+  position: relative;
+  top: 40px;
+  bottom: 20px;
+
+
+  
+}
+.writetitle{
+position: relative;
+top: 30px;
+left: -90px;
+font-family: 'SUIT-Regular';
+font-size: 15px;
+}
+
+.write_textarea{
+  position: relative;
+  font-size: 15px;
+  height: 120px;
+  top: 30px;
+  left: -87px;
+  font-family: 'SUIT-Regular';
+}
+
+.photo{
+  font-family: 'SUIT-Regular';
+  font-size: 14px;
+
+  position: relative;
+  top: 40px;
+  left: -84px;
+}
+
+.writego{
+  padding: 10px;
+  border-radius: 10px;
+  border:2px solid gray;
+  background-color: none;
+  color: gray;
+  font-family: 'SUIT-Bold';
+  font-size: 15px;
+  position: relative;
+  top: 130px;
+  left: -500px;
+}
+
+.writego:hover , .writedel:hover{
+  background-color: gray;
+  color: white;
+ 
+} 
+.writedel{
+  padding: 10px;
+  border-radius: 10px;
+  border:2px solid gray;
+  color: gray;
+  font-family: 'SUIT-Bold';
+  font-size: 15px;
+  position: relative;
+  top: 130px;
+  left: -490px;
+}
+.writing-page input,
+.writing-page textarea {
+  
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+
+
+/* 게시판 카드 */
+.card-list {
+  margin-top: 150px;
+  
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-container table {
+  table-layout: fixed; /* 고정 테이블 레이아웃 설정 */
+  width: 100%; /* 테이블 전체 너비 */
+}
+
+.card-container th {
+  width: 1000px; /* 테이블 헤더 셀 너비 (자동 조정) */
+  text-align: center; /* 텍스트 왼쪽 정렬 */
+  padding: 10px; /* 셀 안의 여백 설정 */
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+
+  
+  transition: transform 0.2s;
+  text-align: left;
+
+}
+.card td{
+  color: black;
+  text-decoration: none;
+
+  box-shadow:  rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  outline: 1px solid #FF9F56; /* 빛나는 아웃라인 색상 */
+  box-shadow: 0px 4px 2px #FF9F56;
+  
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.card p {
+
+  color: black;
+
+  color: #555;
+
+}
+
+.card-container {
+  
+  
+  
+  width: 80%; /* 표 너비 설정 */
+  margin: 0 auto; /* 가운데 정렬 */
+  padding: 20px;
+  border-collapse: collapse; /* 테두리 겹치기 방지 */
+  border: 3px solid #ffcaa2; /* 테두리 스타일 설정 */
+}
+.farming-tips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card-actions {
+  margin-top: 20px;
+ position: relative;
+ top: -20px;
+ left: 100px;
+}
+
+.card-actions a {
+  font-family: 'SUIT-Regular';
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-actions a:hover {
+  text-decoration: underline;
+}
+
+.card-container thead th {
+  background-color:  #FF9F56;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+
+.card-container tbody td {
+  padding: 10px;
+  border-bottom: 1.2px solid  #FF9F56;
+  border-top: 1.2px solid  #FF9F56;
+  text-align: center;
+}
+
+
+.card-container tbody td[colspan="5"] {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-container tbody img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.card-container tbody td.clickable {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.card-container tbody td.expanded {
+  font-weight: bold;
+  color: #333;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  position: relative;
+  left: 0px;
+ 
+}
+
+.pagination button {
+  background-color: #FF9F56; /* 더 진한 주황색으로 변경 */
+  ;
+  border: none;
+  border-radius: 10px;
+  font-family: 'SUIT-Bold';
+  font-size: 15px;
+  color: white;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover {
+  border: 2px solid #FF9F56;
+  background-color: white;
+  color: #FF9F56;
+}
+
+
+
+/* Notice.css */
+.notice-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notice-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.notice-table th,
+.notice-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.notice-table th {
+  background-color: #f5f5f5;
+}
+
+.notice-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.notice-table tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.content_num{
+  
+  font-size: small;
+}
+.content_titleq{
+  text-align: start;
+}
+
+.card-details{
+  border : 3px solid orange;
+  border-radius: 30px;
+
+}
+
+
+.card-details-title {
+  font-family: 'SUIT-ExtraBold';
+  font-size: 24px;
+  position: relative;
+  left: 100px;
+  
+  color: #333;
+  border-bottom: 2px solid #FF9F56;
+  display: inline-block; /* 제목을 인라인 블록 요소로 설정 */
+  padding-bottom: 5px; /* 선과 텍스트 사이의 간격 조정 */
+  width: fit-content;
+  
+}
+
+.card-details-content {
+  font-family: 'SUIT-Regular';
+  font-size: 17px;
+  position: relative;
+  left: 100px;
+  white-space: pre-line;
+  
+  color: #666;
+  
+}
+
+.card-details-image {
+  
+  height: auto;
+  position: relative;
+  top: 20px;
+  border-radius: 0px;
+  left: 100px;
+  
+  
+  
+}
+.card-details-container{
+  
+  transition: max-height 0.3s ease-in-out; /* 애니메이션 효과 추가 */
+ border-radius: 15px;
+  padding: 100px 50px; /* 내용과의 간격을 위한 padding 설정 */
+  margin-left: 320px;
+  max-height: 20000px;
+  margin-right: 320px;
+ 
+ 
+  
+  background-color: #f9f9f9; /* 선택적으로 배경색 지정 */
+}
+
+.card-details-buttons {
+ position: relative;
+ left: 450px;
+ margin-bottom: 30px;
+
+
+}
+
+.card-details-button-delete,
+.card-details-button-list {
+  padding: 5px 15px;
+  font-family: 'SUIT-SemiBold';
+  font-size: 14px;
+  margin-right: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-details-button-delete {
+  background-color: #FF9F56;
+  position: relative;
+  color: #fff;
+  
+}
+
+.carddetailarea{
+  width: 800px;
+  height: 20px;
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.commentname{
+  position: relative;
+  font-family: 'SUIT-Bold';
+  top: 35px;
+  left: 150px;
+}
+
+.commenthr{
+  border: 1px solid #FF9F56 ;
+  border-radius: 30px;
+  border-style:  dashed;
+  position: relative;
+  width: 960px;
+  top: 40px;
+}
+
+.card-details-button-list {
+  border: 2px solid #FF9F56;
+  background-color: white;
+  color: #FF9F56;
+}
+.card-details-buttons {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  margin-top: 20px;
+}
+
+.comment-list {
+  margin-top: 20px;
+}
+.comment_list{
+  font-family: 'SUIT-Bold';
+  font-size: 22px;
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+
+
+.comment-list ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  left: -10px;
+}
+.comment-list li{
+  font-family: 'SUIT-SemiBold';
+  border: 1px solid #ccc;
+  padding: 10px;
+ width: 900px;
+ border-radius: 5px;
+  background-color: #f5f5f5;
+  position: relative;
+  top:70px;
+  left: 100px;
+  margin: 10px;
+}
+
+.comment {
+  
+ position: relative;
+ left:10px;
+  
+}
+
+.commentnickname{
+  font-family: 'SUIT-Regular';
+  font-size: 14px;
+ position: relative;
+ left: 10px;
+
+}
+
+.comment-list li:last-child {
+  margin-bottom: 0;
+}
+.commentlist{
+  font-family: 'SUIT-Bold';
+  position: relative;
+  top: 60px;
+  left: 100px;
+}
+
+textarea {
+  width: 98.7%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: white;
+  color: #FF9F56;
+  border: 1px solid #FF9F56;
+  padding: 13px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+
+  /* left: -70px;
+  top: -10px; */
+}
+
+/* 버튼 태그 전체 -> 검색 페이지 줌 스크롤 버튼, 회원가입 버튼 위치에 영향을 줍니다. 다른 클래스로 빼서 작업해야할 듯해요! */
+
+.card-nickname{
+  
+  font-family: 'SUIT-Bold';
+  color: rgb(0, 0, 0);
+ position: relative;
+ left: 100px;
+
+}
+
+.card-details-button-delete:hover {
+  background-color: white;
+  color: #FF9F56;
+  border: 2px solid #FF9F56;
+}
+.card-details-button-list:hover{
+  background-color: #FF9F56;
+  color: white;
+}
+
+
+.notice-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.notice-banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.commentnick{
+  font-weight: 900px;
+  font-size:larger;
+  color: #0056b3;
+}
+.comment_area{
+  font-family: 'SUIT-Regular';
+  font-size: 15px;
+  width: 900px;
+
+  position: relative;
+  top: 45px;
+  left: 100px;
+}
+
+.comment_btn{
+  font-family: 'SUIT-SemiBold';
+  position: relative;
+  left: 125px;
+  top: 20px;
+}
+
+.comment_btn:hover{
+  background-color: #FF9F56;
+  color: white;
+}
+
+.commentday{
+  font-family:'SUIT-Bold';
+  font-size: x-small;
+  color:#0056b3;
+}
+
+.notice-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notice-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.notices-list {
+  margin-bottom: 20px;
+}
+
+.notices-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notices-list li {
+  padding: 10px;
+  border: 1px solid hwb(308 59% 3%);
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.notices-list li:hover {
+  background-color: #f5f5f5;
+}
+
+.notice-details {
+  background-color: #f5f5f5;
+  
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notice-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.notice-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.new-notice {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.new-notice h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.new-notice input,
+.new-notice textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.new-notice-button {
+  text-align: center;
+  bottom: 20px;
+  right: 20px;
+}
+
+.new-notice button:hover {
+  background-color: #0056b3;
+}
+
+
+/* 신청내역 */
+.mypage-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: -50px;
+  margin-left: 320px;
+  margin-right: 320px;
+
+}
+.mypage-title {
+  position: relative;
+  top: 100px;
+  font-size: 28px;
+  font-family: 'SUIT-Bold';
+  border-bottom: solid #FF9F56;
+  padding: 10px;
+}
+
+.mypage-title1 {
+  position: relative;
+  top: 150px;
+  font-size: 28px;
+  font-family: 'SUIT-Bold';
+  border-bottom: solid #FF9F56;
+  padding: 10px;
+}
+.ap1{
+  font-size: 17px;
+  position: relative;
+  top: -10px;
+ 
+  text-align: center;
+  margin-bottom: -10px;
+}
+.apply_gardenname{
+  position: relative;
+  left: 10px;
+ font-size: 20px;
+  color:#FF9F56 ;
+}
+
+.application-table1{
+  
+  border-collapse: collapse;
+  font-family: 'SUIT-SemiBold';
+  position: relative;
+  top: 190px;
+}
+.application-table {
+  
+  border-collapse: collapse;
+  font-family: 'SUIT-SemiBold';
+  position: relative;
+  top: 130px;
+}
+
+
+.application-table th, .application-table td {
+  border: 1px solid rgb(243, 243, 243);
+  padding: 20px;
+  text-align: center;
+}
+
+.application-table th {
+  background-color: #ffc89e;
+  border-radius: 0px;
+}
+
+.application-table1 th, .application-table1 td {
+  border: 1px solid rgb(243, 243, 243);
+  padding: 20px;
+  text-align: center;
+}
+
+.application-table1 th {
+  background-color: #ffc89e;
+  border-radius: 0px;
+}
+
+
+
+
+.aaa{
+  width:100px;
+  
+}
+.bbb{
+  width: 900px;
+}
+.ccc{
+ width: 200px;
+}
+.ddd {
+  font-family: 'SUIT-Bold';
+  background-color: white;
+  color: lightgrey;
+  border: 2px solid lightgrey;;
+  position: relative;
+  left: 1px;
+  padding:10px 20px 10px 20px;
+  font-size: medium;
+  width: 100px;
+
+}
+.ddd:hover{
+  background-color: lightgrey;;
+  color: white;
+}
+.mycard {
+
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50px; /* 카드의 너비를 조정해 원하는 크기로 설정하세요 */
+
+  text-align: center;
+}
+
+
+/* gunsik end */
+
+
+/* find */
+
+.find {
+  width:1280px;
+  margin-top : 60px;
+  margin-left :320px;
+}
+
+
+#addressBtn {
+  margin-left : 30px;
+  width : 60px;
+  height : 100px;
+
+} 
+
+.postbtn{
+  background-color: #05AC7B ;
+  box-sizing: content-box;
+  width : 50px;
+  height : 17px;
+  padding : 10px 16px;
+  margin-left : 13px;
+  border : none;
+  color : white;
+  font-family: 'SUIT-SemiBold';
+  box-shadow: 10px 10px 21px -14px rgba(0,0,0,0.54);
+  -webkit-box-shadow: 10px 10px 21px -14px rgba(0,0,0,0.54);
+  -moz-box-shadow: 10px 10px 21px -14px rgba(0,0,0,0.54);
+} 
+
+.postbtn:hover{
+  background-color: #00C897
+}
+
+/* footer */
+
+.footer{
+  position: relative;
+  left: -320px;
+  top: -20px;
+}
+
+.footerimg{
+  width: 1930px;
+  height: auto;
+ text-align: center;
+}

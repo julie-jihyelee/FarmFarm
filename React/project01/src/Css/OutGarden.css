@@ -1,0 +1,502 @@
+.outgarden-container{
+ position: relative;
+ left: 250px;
+ top: -280px;
+}
+
+
+.out-container {
+  margin-top: 180px;
+  margin-left: 320px;
+  margin-right: 320px;
+  width: 1250px;
+  height: 1250px;
+  /* background-color: #F7F5E1; */
+  border: 2px solid #47A148; /* 테두리 (투명) */
+  /* outline: 4px solid #47A148; 빛나는 아웃라인 색상 */
+  box-shadow: 0px 0px 5px  #F7F5E1; /* 블러 효과를 주는 그림자 */
+  border-radius: 15px;
+  z-index: 99;
+}
+.leaves1{
+  z-index: 1;
+ width: 200px;
+ height: auto;
+ position: relative;
+ top: 993px;
+ left: 5px;
+ animation: motion 1.0s /* 속도 */
+ linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
+ infinite alternate; /* 무한 반복 */
+
+}
+
+@keyframes motion {
+	0% {top: 993px;} /* 처음 위치 */
+	100% {top: 997px; rotate: 5deg;} /* 마지막 위치 */
+  }
+
+.leave2{
+  z-index: 99;
+  width: 140px;
+  height: auto;
+  position: relative;
+  left: 915px;
+  top: 100px;
+  
+}
+
+
+
+.out_maintitle{
+  font-family: 'SUIT-ExtraBold';
+  font-size: 25px;
+  border:2px solid #47A148;
+  background-color: #47A148;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 170px;
+ 
+  padding: 15px 30px 20px 60px;
+  position: relative;
+  top: -72px;
+  left: -220px;
+  z-index: 1;
+ 
+}
+
+.form label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  
+}
+
+.form1 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+  left: 100px;
+  
+}
+#gardenName{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: -21px;
+  left: 200px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+
+.form2 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  margin-bottom: 10px;
+  
+}
+
+#gardenImages{
+  position: relative;
+  top: -13px;
+  left: 190px;
+  width: 300px;
+  padding: 10px;
+ border-radius: 10px;
+}
+
+
+.form3 {
+  display: inline-flex;
+}
+
+#gardenImages input{
+  position: relative;
+  border-radius: 10px;
+  font-family: 'SUIT-SemiBold';
+  font-size: 15px;
+  top: -26px;
+  left: 630px;
+  padding: 8px 20px;
+  color: #47A148;
+  border: 1px solid #b8b8b8;
+}
+
+
+
+.form3 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 100px;
+
+}
+
+#out_address{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: 13px;
+  left: 205px;
+  border: 1px solid #b8b8b8;
+  width: 200px;
+ padding: 10px;
+ border-radius: 10px;
+}
+.form3 button{
+  position: relative;
+  border-radius: 10px;
+  font-family: 'SUIT-SemiBold';
+  font-size: 13px;
+  top: 12px;
+  left: 225px;
+  padding: 10px 15px;
+  color: #47A148;
+  border: 1px solid #47A148;
+} 
+
+.form3 button:hover{
+  background-color: #47A148;
+  border: 1px solid #47A148;
+  color: white;
+}
+
+
+.form4 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+  left: 100px;
+  
+}
+
+.form4_1 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+  left: 100px;
+}
+
+
+#out_areanum{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top:25px;
+  left: 207px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+.form4 {
+  position: relative;
+  top: 8px;
+}
+.form4_1 {
+  position: relative;
+  top: 30px;
+}
+
+.form5,.form6 ,.form7, .form8,
+.form9 , .form10 {
+  position: relative;
+  top: 50px;
+}
+
+#out_area{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: 25px;
+  left: 212px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.form5 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 31px;
+  left: 100px;
+  
+}
+.outtype_btn{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  
+  left: 358px;
+  top: -2px;
+}
+
+.type_button{
+  border: 1px solid #b8b8b8;
+  width: 97px;
+  color: #47A148;
+  border-radius: 10px;
+  font-family: 'SUIT-Regular';
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 8px;
+  position: relative;
+  left: -77px;
+}
+.type_button:hover{
+  
+  background-color: #47A148;
+  border: 1px solid #b8b8b8;
+  color: white;
+}
+
+.outtype_btn1{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  
+  left: 358px;
+  top: -20px;
+}
+
+.type1_button{
+  border: 1px solid #b8b8b8;
+  width: 97px;
+  color: #47A148;
+  border-radius: 10px;
+  font-family: 'SUIT-Regular';
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 8px;
+  position: relative;
+  left: -77px;
+}
+.type1_button:hover{
+  
+  background-color: #47A148;
+  border: 1px solid #b8b8b8;
+  color: white;
+}
+.type1_button.selected {
+  /* 선택된 버튼 스타일 */
+  background-color: #47A148;
+  border: 1px solid #b8b8b8;
+  color: white;
+}
+.type_button.selected {
+  /* 선택된 버튼 스타일 */
+  background-color: #47A148;
+  border: 1px solid #b8b8b8;
+  color: white;
+}
+
+#outtype{
+  font-family: 'SUIT-Bold';
+  font-size: 14px;
+  text-align: center;
+  color: #47A148;
+  position: relative;
+  top: 25px;
+  left: 280px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+
+.form6 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: 100px;
+  
+}
+
+.form7 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: -2px;
+  left: 100px;
+  
+}
+
+#out_price{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: -8px;
+  left: 195px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.form8 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+  left: 100px;
+  
+
+}
+#lental_startDate{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: 20px;
+  left: 155px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+
+.form9 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 100px;
+  
+}
+
+#lental_startDate1{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: 50px;
+  left: 155px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+
+.form10 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 100px;
+  
+}
+
+#lental_startDate2{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: 80px;
+  left: 155px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.form11{
+  position: relative;
+  top: 50px;
+
+}
+
+
+#lental_endDate{
+  font-family: 'SUIT-Regular';
+  position: relative;
+  top: 160px;
+  left: 155px;
+  border: 1px solid #b8b8b8;
+  width: 300px;
+ padding: 10px;
+ border-radius: 10px;
+}
+.form11 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 100px;
+  
+}
+
+.form12 label{
+  font-family: 'SUIT-SemiBold';
+  font-size: 20px;
+  position: relative;
+  top: -150px;
+  left: 100px;
+  z-index: 99;
+  
+}
+#lental_endDate1{
+  font-family: 'SUIT-Regular';
+  position: relative;
+ 
+  width: 300px;
+  height: 200px;
+  left: 210px;
+  top: 60px;
+  border: 1px solid #b8b8b8;
+  
+ padding: 10px;
+ border-radius: 10px;
+}
+
+
+
+
+.form input{
+
+  position: relative;
+  left: 100px;
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+
+.form textarea {
+  width: 100%; /* 본문내용 입력란을 card 하단에 꽉 차게 */
+  height: 300px; /* 본문내용 입력란의 높이 설정 */
+  resize: none; /* 사용자가 크기를 조절하지 못하게 함 */
+}
+
+.submit-btn, .preview-btn {
+  font-family: 'SUIT-SemiBold';
+  justify-content: space-between;
+  width: 20%; /* 버튼의 너비 설정 */
+  margin: 5px auto; /* 중앙 정렬 및 상하간격 설정 */
+  background-color:  #47A148 ; /* 진한 녹색 배경 */
+  color: #ffffff; /* 텍스트 색상을 하얀색으로 */
+  border: none; /* 테두리 제거 */
+  padding: 10px; /* 패딩 추가 */
+  cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+  font-size: 16px; /* 글자 크기 설정 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  position: relative;
+  top: 140px;
+  margin: 10px;
+  left: 230px;
+}
+
+.submit-btn:hover, .preview-btn:hover {
+  background-color: #004c00; /* 마우스 오버 시 색상 변경 */
+}
+
+

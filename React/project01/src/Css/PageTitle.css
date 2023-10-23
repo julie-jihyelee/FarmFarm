@@ -1,0 +1,31 @@
+.infopage{
+  position : relative;
+  top :-50px;
+  height : 310px;
+}
+
+
+.infotitle{
+  
+  font-family: 'SUIT-ExtraBold';
+  text-align: center;
+  position: relative;
+  left: 880px;
+  top: 120px;
+  color: #575757;
+  font-size: 45px;
+  bottom: 50px;
+  z-index: 99;
+  animation: 0.6s ease-in-out loadEffect2; 
+  
+}
+
+.infotitle_bg{
+  position : relative;
+  width: 1950px;
+  height: auto;
+  left : -30px;
+  top : -56px;
+  z-index: 3;
+  animation: 0.6s ease-in-out loadEffect2; 
+}
